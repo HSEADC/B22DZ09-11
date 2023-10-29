@@ -1,0 +1,20 @@
+.nav {
+	position: absolute;
+	display: block;
+	right: 4vw;
+	top: 2.5vw;
+}
+
+.nav p {
+	font-family: 'Rubik', sans-serif;
+	text-transform: uppercase;
+	color: var(--pale_dogwood);
+	font-weight: 700;
+	font-size: 1.25em;
+	margin-bottom: 0.15vw;
+}
+
+a {
+	text-decoration: none;
+}
+

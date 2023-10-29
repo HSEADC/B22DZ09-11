@@ -1,31 +1,14 @@
 @font-face {
-  font-family: 'PT Root UI';
-  src: url('fonts/PT-Root-UI_Light.woff2') format('woff2'),
-    url('fonts/PT-Root-UI_Light.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
+    font-family: 'Bebas Neue Cyrillic';
+    src: url('fonts/BebasNeueCyrillic.eot');
+    src: local('Bebas Neue Cyrillic'), local('BebasNeueCyrillic'),
+        url('fonts/BebasNeueCyrillic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BebasNeueCyrillic.woff2') format('woff2'),
+        url('fonts/BebasNeueCyrillic.woff') format('woff'),
+        url('fonts/BebasNeueCyrillic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
-@font-face {
-  font-family: 'PT Root UI';
-  src: url('fonts/PT-Root-UI_Regular.woff2') format('woff2'),
-    url('fonts/PT-Root-UI_Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'PT Root UI';
-  src: url('fonts/PT-Root-UI_Medium.woff2') format('woff2'),
-    url('fonts/PT-Root-UI_Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'PT Root UI';
-  src: url('fonts/PT-Root-UI_Bold.woff2') format('woff2'),
-    url('fonts/PT-Root-UI_Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap');

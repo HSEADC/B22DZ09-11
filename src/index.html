@@ -1,22 +1,90 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>static-site-boilerplate index</title>
-    <analytics></analytics>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loka</title>
+    <link rel="shortcut icon" href="/src/images/loka_browser_icon.svg" />
   </head>
+  <body>
+    
 
-  <body class="index">
-    <div class="images">
-      <div class="image" id="bgPNG"></div>
-      <div class="image" id="bgJPG"></div>
-      <div class="image" id="bgSVG"></div>
-      <img src="images/image.png" />
-      <img src="images/image.jpg" />
-      <img src="images/image.svg" />
+    <div class="title_preview">
+      <p>
+        любите красивые<br />
+        кадры для ваших<br />
+        соцсетей, сервис для<br />вас.
+      </p>
     </div>
 
-    <div>This is a landing page</div>
-    <a href="./pages/page.html">Go to an internal page</a>
+    <div class="bgimg_1">
+      <img
+        sizes="(max-width: 280px) 100vw, 280px"
+        srcset="
+          /src/images/bgimage1_50.jpg   50w,
+          /src/images/bgimage1_234.jpg 234w,
+          /src/images/bgimage1_280.jpg 280w
+        "
+        src="/src/images/bgimage1_280.jpg"
+        alt=""
+      />
+    </div>
+    <div class="bgimg_2">
+      <img
+        sizes="(max-width: 192px) 100vw, 192px"
+        srcset="
+          /src/images/bgimage2_50.jpg   50w,
+          /src/images/bgimage2_147.jpg 147w,
+          /src/images/bgimage2_192.jpg 192w
+        "
+        src="/src/images/bgimage2_192.jpg"
+        alt=""
+      />
+    </div>
+    <div class="bgimg_3">
+      <img
+        sizes="(max-width: 215px) 100vw, 215px"
+        srcset="
+          /src/images/bgimage3_50.jpg   50w,
+          /src/images/bgimage3_165.jpg 165w,
+          /src/images/bgimage3_215.jpg 215w
+        "
+        src="/src/images/bgimage3_215.jpg"
+        alt=""
+      />
+    </div>
+    <div class="bgimg_4">
+      <img
+        sizes="(max-width: 216px) 100vw, 216px"
+        srcset="
+          /src/images/bgimage4_50.jpg   50w,
+          /src/images/bgimage4_165.jpg 165w,
+          /src/images/bgimage4_216.jpg 216w
+        "
+        src="/src/images/bgimage4_216.jpg"
+        alt=""
+      />
+    </div>
+
+    <div class="logo"><img src="/src/images/logo.svg" alt="" /></div>
+
+    <div class="bgpaper">
+      <img
+        sizes="(max-width: 1920px) 100vw, 1920px"
+        srcset="
+          /src/images/paper_texture_1080.jpg 1080w,
+          /src/images/paper_texture_1480.jpg 1480w,
+          /src/images/paper_texture_1645.jpg 1645w,
+          /src/images/paper_texture_1678.jpg 1678w,
+          /src/images/paper_texture_1920.jpg 1920w
+        "
+        src="/src/images/paper_texture_1920.jpg"
+        alt=""
+      />
+    </div>
+    <div class="star"><img src="/src/images/_.svg" alt="" /></div>
+    <div class="zzline"><img src="/src/images/zzline.svg" alt="" /></div>
+
+	 <nav></nav>
   </body>
 </html>

@@ -12,7 +12,7 @@ module.exports = {
     page: './src/page.jsx'
   },
   output: {
-    filename: '[name].js',
+    filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'docs')
     // clean: true
   },
@@ -93,11 +93,20 @@ module.exports = {
       chunks: ['page']
     }),
 
+    //Navigation
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/nav.html',
+      filename: './nav.html',
+      chunks: ['nav']
+    }),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
-        path: path.join(__dirname, './src/partials/analytics.html'),
-        location: 'analytics',
+        path: path.join(__dirname, './src/nav.html'),
+        location: 'nav',
         template_filename: '*',
         priority: 'replace'
       }
