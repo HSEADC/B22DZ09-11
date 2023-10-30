@@ -97,8 +97,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/nav/nav.html',
-      filename: './nav/nav.html',
+      template: './src/nav.html',
+      filename: './nav.html',
       chunks: ['nav']
     }),
 
@@ -111,7 +111,7 @@ module.exports = {
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
-        path: path.join(__dirname, './src/nav/nav.html'),
+        path: path.join(__dirname, './src/nav.html'),
         location: 'nav',
         template_filename: '*',
         priority: 'replace'
