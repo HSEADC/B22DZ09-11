@@ -1,81 +1,81 @@
-body {
+body.main {
   background-color: var(--cambridge_blue);
   overflow-x: hidden;
   overflow-y: hidden;
-}
 
-p {
-  font-family: 'Bebas Neue Cyrillic';
-}
+  p {
+    font-family: 'Bebas Neue Cyrillic';
+  }
 
-.title_preview {
-  position: absolute;
-  display: flex;
-  text-align: center;
-  font-size: 12.5em;
-  bottom: 0.7vw;
-  width: 100%;
-  justify-content: center;
-}
+  .title_preview {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    font-size: 12.5em;
+    bottom: 0.7vw;
+    width: 100%;
+    justify-content: center;
+  }
 
-.title_preview p {
-  color: var(--pale_dogwood);
-}
+  .title_preview p {
+    color: var(--pale_dogwood);
+  }
 
-.star {
-  position: absolute;
-  z-index: -3;
-  overflow: hidden;
-  left: 35vw;
-  top: -37vh;
-}
+  .star {
+    position: absolute;
+    z-index: -3;
+    overflow: hidden;
+    left: 35vw;
+    top: -37vh;
+  }
 
-.zzline {
-  position: absolute;
-  z-index: -3;
-  overflow: hidden;
-  left: -55vw;
-  top: -20vh;
-}
+  .zzline {
+    position: absolute;
+    z-index: -3;
+    overflow: hidden;
+    left: -55vw;
+    top: -20vh;
+  }
 
-.bgpaper img {
-  position: absolute;
-  z-index: -2;
-  overflow: hidden;
-  mix-blend-mode: hard-light;
-  opacity: 70%;
-}
+  .bgpaper img {
+    position: absolute;
+    z-index: -2;
+    overflow: hidden;
+    mix-blend-mode: hard-light;
+    opacity: 70%;
+  }
 
-.logo {
-  position: absolute;
-  right: 4vw;
-  bottom: 2vw;
-}
+  .logo {
+    position: absolute;
+    right: 4vw;
+    bottom: 2vw;
+  }
 
-.bgimg_1 {
-  position: absolute;
-  z-index: -1;
-  left: 10.5vw;
-  top: 9vw;
-}
+  .bgimg_1 {
+    position: absolute;
+    z-index: -1;
+    left: 10.5vw;
+    top: 9vw;
+  }
 
-.bgimg_2 {
-  position: absolute;
-  z-index: -1;
-  left: 16vw;
-  bottom: 3vw;
-}
+  .bgimg_2 {
+    position: absolute;
+    z-index: -1;
+    left: 16vw;
+    bottom: 3vw;
+  }
 
-.bgimg_3 {
-  position: absolute;
-  z-index: -1;
-  right: 9.5vw;
-  top: 15.5vw;
-}
+  .bgimg_3 {
+    position: absolute;
+    z-index: -1;
+    right: 9.5vw;
+    top: 15.5vw;
+  }
 
-.bgimg_4 {
-  position: absolute;
-  z-index: -1;
-  right: 27vw;
-  bottom: 4vw;
+  .bgimg_4 {
+    position: absolute;
+    z-index: -1;
+    right: 27vw;
+    bottom: 4vw;
+  }
 }

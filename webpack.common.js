@@ -97,15 +97,21 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/nav.html',
-      filename: './nav.html',
+      template: './src/nav/nav.html',
+      filename: './nav/nav.html',
       chunks: ['nav']
+    }),
+
+    //Aboutus
+    new HtmlWebpackPlugin({
+      template: './src/aboutus.html',
+      filename: './aboutus.html',
     }),
 
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
-        path: path.join(__dirname, './src/nav.html'),
+        path: path.join(__dirname, './src/nav/nav.html'),
         location: 'nav',
         template_filename: '*',
         priority: 'replace'

@@ -1,0 +1,228 @@
+body.aboutus {
+  background-color: var(--cambridge_blue);
+  overflow-x: hidden;
+
+  .logobig {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 48.5vw;
+  }
+
+  .logobig img {
+    position: absolute;
+    bottom: 0.5vw;
+  }
+
+  .bgpaper img {
+    position: absolute;
+    z-index: -2;
+    overflow: hidden;
+    mix-blend-mode: hard-light;
+    opacity: 70%;
+  }
+
+  .portrait {
+    height: 48vw;
+  }
+
+  .papertex2 img {
+    position: absolute;
+    z-index: -2;
+    overflow: hidden;
+    mix-blend-mode: hard-light;
+    opacity: 70%;
+  }
+
+    .arrow1 {
+      position: relative;
+
+       left: 15vw;
+       top: 3.6vh;
+    }
+
+    .arrow1 img {
+      position: absolute;
+      z-index: -3;
+      overflow: hidden;
+    }
+
+	 .zzline_2 {
+      position: relative;
+
+       left: -7vw;
+       top: 150vh;
+    }
+
+    .zzline_2 img {
+      position: absolute;
+      z-index: -3;
+      overflow: hidden;
+    }
+
+	 .zzline_3 {
+      position: relative;
+
+       left: 0vw;
+       top: 317.3vh;
+    }
+
+    .zzline_3 img {
+      position: absolute;
+      z-index: -3;
+      overflow: hidden;
+    }
+
+  .columns {
+    column-count: 3;
+    column-width: 1vw;
+    column-gap: 11vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 9vw;
+  }
+
+  .column_1st {
+    position: relative;
+  }
+
+  .vl_left {
+    position: absolute;
+    border-left: 0.7vw solid var(--pale_dogwood);
+    height: 158vw;
+  }
+
+  .square {
+    position: absolute;
+    top: 23vw;
+    left: -7vw;
+  }
+
+  .car_image {
+    position: absolute;
+    top: 43vw;
+    left: 2.7vw;
+  }
+
+  .lifehacks_text {
+    position: absolute;
+    top: 93.9vw;
+    left: 2.7vw;
+  }
+
+  .lifehacks_text h2 {
+    margin-bottom: 1.5vw;
+  }
+
+  .pose {
+    position: absolute;
+    top: 135vw;
+    left: -0.8vw;
+  }
+
+  .poses_text {
+    margin-top: 147.2vw;
+    margin-left: 3vw;
+  }
+
+  .poses_text h2 {
+    margin-bottom: 1.5vw;
+  }
+
+  .column_2nd {
+    position: relative;
+  }
+
+  .ladder_image {
+    position: absolute;
+    top: 7vw;
+    left: -6.8vw;
+    z-index: -2;
+  }
+
+  .sasha_image {
+    position: absolute;
+    top: 116.5vw;
+    left: -6.8vw;
+    z-index: -2;
+  }
+
+  .lifehacks {
+    position: absolute;
+    top: 100vw;
+    left: -16.3vw;
+  }
+
+  .colums_element_2st {
+    z-index: -1;
+	 padding-left: 9%;
+  }
+
+  .column_3rd {
+    position: relative;
+  }
+
+  .universal {
+    position: absolute;
+    top: 16.5vw;
+  }
+
+  .preset {
+    position: absolute;
+    top: 51.7vw;
+    left: 14.5vw;
+  }
+
+  .bibl {
+    position: absolute;
+    top: 81.4vw;
+  }
+
+  .box_image {
+    margin-top: 87.5vw;
+    margin-right: 2vw;
+  }
+
+  .vl_right {
+    position: absolute;
+    border-left: 0.7vw solid var(--pale_dogwood);
+    height: 158vw;
+    margin-left: 100%;
+  }
+
+  .columns h1 {
+    transform: rotate(-90deg);
+    color: #edcfc5;
+    font-family: Bebas Neue Cyrillic;
+    font-size: 6.6vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3vw;
+  }
+
+  .columns h2 {
+    color: #edcfc5;
+    font-family: Rubik;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3vw;
+  }
+
+  .columns ul {
+    list-style-image: url(/src/images/liststyle_star.svg);
+    color: var(--pale_dogwood);
+    font-family: Rubik;
+    font-size: 0.8vw;
+    font-weight: 500;
+    margin-left: 1.2vw;
+  }
+
+  .columns li {
+    padding-bottom: 0.9vw;
+    line-height: 1.2;
+  }
+}
